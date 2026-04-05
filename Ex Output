@@ -1,0 +1,26 @@
+--- First Fit ---
+Process No.    Process Size    Block No.
+1              212             2
+2              417             5
+3              112             2
+4              426             Not Allocated
+Memory Utilization: 74.67%
+Total Fragmentation: 488
+
+--- Best Fit ---
+Process No.    Process Size    Block No.
+1              212             4
+2              417             2
+3              112             3
+4              426             5
+Memory Utilization: 93.33%
+Total Fragmentation: 100
+
+--- Worst Fit ---
+Process No.    Process Size    Block No.
+1              212             5
+2              417             2
+3              112             5
+4              426             Not Allocated
+Memory Utilization: 73.33%
+Total Fragmentation: 500
